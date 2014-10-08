@@ -6,20 +6,6 @@
     color: white;
 }
 
-.background-image-container {
-	background-image: "../img/skyline.JPG";
-	width: 100%;
-	height: 100%;
-}
-
-body { 
-	background: url(../img/skyline.JPG) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
- 	-o-background-size: cover;
-	background-size: cover;
-}
-
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -72,4 +58,8 @@ body {
 	
 	display: block;
 	margin:auto;
+}
+
+.background-container {
+	background: url(../img/stardust.png);
 }

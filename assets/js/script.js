@@ -1,4 +1,5 @@
 $(document).ready(function() {
-	$('#title-content-container').plaxify({"xRange":10,"yRange":10})
+	$('#title-content-container').plaxify({"xRange":20,"yRange":20})
+
 	$.plax.enable()
 });
