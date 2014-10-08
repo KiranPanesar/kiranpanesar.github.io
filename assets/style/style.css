@@ -19,15 +19,16 @@
 
 .container-fluid{
   height:100%;
-  display:table;
   width: 100%;
+  display:table;
+
   padding: 0;
 }
 
 .row-fluid {
 	display:table-cell; 
 	vertical-align: middle;
-	background-color: rgba(0,0,0,0.4);
+	background-color: rgba(0,0,0,0.2);
 }
 
 .centering {
@@ -62,4 +63,19 @@
 
 .background-container {
 	background: url(../img/stardust.png);
+}
+
+.links-bar {
+	background-color: transparent;
+}
+.links-bar a {
+	color: white;
+	font-family: 'Lato', sans-serif;	
+	font-weight: lighter;
+}
+
+.navbar-nav > li > a:hover {
+	color: white;
+	text-decoration: underline;
+	background-color: transparent;
 }
