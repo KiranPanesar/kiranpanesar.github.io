@@ -56,6 +56,10 @@ body {
 	color: white;
 }
 
+.title a {
+	color: white;
+}
+
 .headshot-image-container {
 	border-radius: 100%;
     border: 2px solid white;
