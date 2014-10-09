@@ -1,21 +1,15 @@
-.nav-bar {
-	background-color: transparent;
-}
-
-.nav-bar .navbar-nav > li > a {
-    color: white;
+body {
+	background-color: #444349;
 }
 
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
-  vertical-align: top;
 }
 
 .navbar .navbar-collapse {
   text-align: center;
 }
-
 
 .container-fluid{
   height:100%;
@@ -28,7 +22,6 @@
 .row-fluid {
 	display:table-cell; 
 	vertical-align: middle;
-	background-color: rgba(0,0,0,0.2);
 }
 
 .centering {
@@ -62,6 +55,10 @@
 }
 
 .background-container {
+	display: block;
+	margin: auto;
+	height: 99%;
+	width: 99%;
 	background: url(../img/stardust.png);
 }
 
