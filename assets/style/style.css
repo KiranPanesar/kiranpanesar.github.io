@@ -55,11 +55,16 @@ body {
 }
 
 .background-container {
+	background-color: blue;
 	display: block;
 	margin: auto;
 	height: 99%;
 	width: 99%;
 	background: url(../img/stardust.png);
+}
+
+.timeline-background-container {
+	height: auto;
 }
 
 .links-bar {
@@ -75,4 +80,12 @@ body {
 	color: white;
 	text-decoration: underline;
 	background-color: transparent;
+}
+
+.cd-container {
+	font-family: 'Lato', sans-serif;	
+}
+
+.cd-date {
+	color: white;
 }
